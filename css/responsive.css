@@ -1,0 +1,141 @@
+/*====================== 
+    extra small device
+========================*/
+@media(max-width: 575px){
+
+    /* navbar section start */
+    #NAVBAR .navbar-toggler {
+        border-color: #fff;
+        margin-top: 51px;
+    }
+    #NAVBAR .navbar-toggler i{
+        color: #fff;
+    }
+
+    #NAVBAR img {
+        height: 70px;
+    }
+
+    #NAVBAR .navbar ul {
+        margin-top: 10px;
+        margin-left: 140px;
+        background: #280063;
+        margin-right: -13px;
+        border-radius: 0 0 0 10px;
+    }
+
+    #NAVBAR .navbar ul li {
+        margin-left: 15px !important;
+    }
+
+    .sign-btn {
+        width: 70px;
+        position: fixed;
+        right: 85px;
+        top: -14px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    .login-btn {
+        width: 70px;
+        position: fixed;
+        right: 15px;
+        top: -14px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    /* End of navbar section */
+
+    /* banner section start */
+
+    #BANNER .banner-image img {
+       display: none;
+    }
+
+    #BANNER .banner-text {
+        margin-top: 145px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    #BANNER .banner-text h1 {
+        font-size: 95px;
+        margin-top: -6px;
+    }
+
+    #BANNER .banner-text p {
+        margin-top: -20px;
+        text-align: justify !important;
+    }
+
+    #BANNER .banner-text .play-btn {
+        margin-left: 0px !important;
+    }
+    /* End of banner section */
+
+    /* related games section start*/
+
+    #GAMES .card-section .card {
+        display: none;
+    }
+
+    #GAMES h2 {
+        padding: 50px 0 20px 0 !important;
+        font-size: 20px;
+    }
+
+    #GAMES .image img {
+        margin-top: 10px;
+    }
+
+
+   #GAMES .image .overlay{
+    margin-top: 10px;
+    }
+
+     /* related games section End*/
+
+     /* Free spin section start */
+
+    #SPIN .text-section h2 {
+        font-size: 35px;
+        text-align: center;
+        margin-top: 51px !important;
+    }
+
+     #SPIN .image-section{
+        display: none;
+    }
+
+    #SPIN .text-section p:last-of-type{
+        display: none;
+    }
+
+    #SPIN .text-section p:first-of-type {
+        text-align: justify;
+    }
+
+    #SPIN .text-section button {
+        margin-left: 50% !important;
+        transform: translateX(-50%);
+        margin-top: 5px !important;
+        margin-bottom: 40px !important;
+    }
+     /* End of free spin section */
+
+     /* pricing plan section start */
+    #PRICE h2 {
+        padding: 43px 0 2px 0 !important;
+        font-size: 35px;
+    }
+
+    #PRICE .card {
+        margin-top: 17% !important;
+    }
+
+    #PRICE .card:first-child {
+        /* margin-top: 0 !important; */
+    }
+}

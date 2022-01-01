@@ -1,0 +1,558 @@
+:root{
+    --barndCol: #150035;
+    --brandCol2:#5D13CC;
+    --antonfont: 'Anton', sans-serif;
+    --nunitofont: 'Nunito', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Common css */
+
+.nunito_reg{
+    font-family: var(--nunitofont);
+    font-weight: 400;
+}
+
+.nunito_semibold{
+    font-family: var(--nunitofont);
+    font-weight: 600;
+}
+
+.nunito_bold{
+    font-family: var(--nunitofont);
+    font-weight: 700;
+}
+
+.nunito-extraLight{
+    font-family: var(--nunitofont);
+    font-weight: 200s;
+}
+
+.anton-reg{
+    font-family: var(--antonfont);
+    font-weight: 400;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.font-32{
+    font-size: 32px;
+}
+
+.font-331{
+    font-size: 331px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-48{
+    font-size: 48px;
+}
+
+.font-50{
+    font-size: 50px;
+}
+
+
+.cmn-btn {
+	width: 115px;
+	height: 51px;
+	background: linear-gradient(#9D4CFA 30%, #5C12CC);
+	font-size: 20px;
+	text-shadow: 3px 3px 2px black;
+	box-shadow: 0px 6px 0 #3A0090;
+	margin-left: 22px !important;
+	margin-top: 25px;
+	border-radius: 10px !important;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-webkit-border-radius: 10px !important;
+	-moz-border-radius: 10px !important;
+	-ms-border-radius: 10px !important;
+	-o-border-radius: 10px !important;
+}
+
+.cmn-btn:hover{
+    background: linear-gradient(#FD38DA 30%, #AD058B) ;
+    box-shadow: 0px 6px 4px #661355;
+}
+
+h2{
+    color: #F5AF12;
+}
+/* typography end */
+
+/* navbar section start*/
+#NAVBAR {
+    background: rgba(58, 0, 144, 0.5);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+#NAVBAR .navbar {
+	height: 100px;
+}
+#NAVBAR img{
+    height: 100px;
+}
+
+#NAVBAR .navbar ul {
+	margin-top: 40px;
+	margin-left: 55px;
+}
+
+#NAVBAR .navbar ul li {
+	margin-left: 15px;
+    color: var(--brandCol2) !important;
+}
+
+#NAVBAR .navbar ul li a{
+    color: var(--brandCol2);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#NAVBAR .navbar ul li a:hover{
+    color: #DF25BD;
+}
+
+#NAVBAR .navbar ul li:first-child{
+    margin-left: 0;
+}
+
+#NAVBAR .navbar button:first-of-type{
+    margin-left: 0;
+}
+
+#NAVBAR .navbar button:last-of-type{
+    margin-right: -11px !important;
+}
+
+#NAVBAR .navbar ul li a.active{
+    color: #DF25BD;
+}
+/* End of navbar section */
+
+/* banner section start */
+#BANNER {
+	background: var(--barndCol);
+	padding-bottom: 250px;
+}
+
+#BANNER .banner-image img {
+	margin-top: 170px;
+	margin-left: -113px;
+}
+
+#BANNER .banner-text {
+	margin-top: 235px;
+	margin-left: 70px;
+}
+
+#BANNER .banner-text h1 {
+	background-image: linear-gradient( #FCB100 40%, #E07F2F 60% );
+	background-clip: text;
+	color: transparent;
+	margin-top: -50px;
+	margin-left: -12px;
+    z-index: 1;
+}
+
+#BANNER .banner-text p {
+	margin-top: -36px;
+	margin-left: 10px;
+}
+
+#BANNER .banner-text .cmn-btn {
+	margin-top: 20px !important;
+	margin-left: 195px !important;
+}
+/* End of banner section */
+
+/* related games section start*/
+#GAMES{
+    background: #0B001B;
+    padding-bottom: 100px;
+}
+
+#GAMES .card-section {
+	position: relative;
+	margin-top: -12%;
+}
+
+#GAMES .card-section .card {
+	background: #6717D0;
+	margin-right: -25px;
+	box-shadow: 10px 1px 23px #00000070;
+	padding: 0 20px;
+}
+
+#GAMES .card-section .card h4{
+    color: #DA8837;
+}
+
+#GAMES .card-section .card-1 {
+	position: absolute;
+	left: 5%;
+    top: -70px;
+	z-index: 2;
+}
+
+#GAMES .card-section .card-2 {
+	position: absolute;
+	right: 37%;
+    top: -70px;
+	z-index: 1;
+}
+
+#GAMES .card-section .card-3 {
+	position: absolute;
+	right: 7%;
+    top: -70px;
+}
+
+#GAMES h2 {
+	padding: 180px 0 60px 0 !important;
+	text-shadow: 6px 8px 60px #780299;
+}
+
+#GAMES .image .overlay {
+    height: 0;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(23, 4, 58, 0.85);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#GAMES .image .overlay button{
+    margin-left: 0 !important;
+}
+
+#GAMES .image:hover .overlay{
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* End of related games section */
+
+/* spin section start */
+#SPIN{
+    background: #150035;
+}
+
+#SPIN .text-section h2{
+    margin-top: 174px !important;
+    text-shadow: 6px 8px 60px #780299;
+}
+
+#SPIN .text-section p:first-of-type{
+    margin: 65px 0 35px 0 !important;
+}
+
+#SPIN .text-section button {
+	margin: 60px 0 180px -2px !important;
+}
+
+#SPIN .image-section{
+    margin-top: 100px;
+}
+
+#SPIN .love {
+	top: 300px;
+}
+
+#SPIN .ludu-dice {
+	top: 392px !important;
+}
+
+/* End of spin section */
+
+/* pricing plan section start */
+#PRICE{
+    background: #0B001B;
+    padding-bottom: 120px;
+}
+
+#PRICE h2{
+    padding: 100px 0 85px 0 !important;
+    text-shadow: 6px 8px 60px #780299;
+}
+
+#PRICE .card,
+#PRICE .card .list-group .list-group-item{
+    background: linear-gradient(#9B4BFA 20%, #5C12CC) !important;
+}
+#PRICE .card ul li{
+    border: none;
+    padding: 10px 0 !important;
+}
+
+#PRICE .card ul{
+    border-bottom: none;
+}
+
+#PRICE .card ul li:last-of-type{
+    padding-bottom: 50px !important;
+}
+
+#PRICE .card button {
+	border-top: none;
+	margin-left: 50% !important;
+	margin-bottom: -20px !important;
+	width: 150px;
+	transform: translateX(-50%);
+}
+
+#PRICE .card .card-body h5{
+    text-shadow: 3px 3px 2px black;
+}
+
+#PRICE .card .list-group-item:first-child {
+	margin-top: -5px !important;
+}
+
+#PRICE .card .card-header{
+	background: linear-gradient(#9D4CFA 30%, #5C12CC);
+	text-shadow: 3px 3px 2px black;
+	box-shadow: 0px 6px 0 #3A0090;
+    /* display: none; */
+    visibility: hidden;
+    margin-top: -20px;
+}
+
+#PRICE .card:hover button,
+#PRICE .card:hover .card-header{
+    visibility: visible;
+    background: linear-gradient(#FD38DA 30%, #AD058B) ;
+    box-shadow: 0px 6px 4px #661355;
+}
+/* End of pricing plan section */
+
+/* table section start */
+#TABLE{
+    background: #150035;
+    padding-bottom: 150px;
+}
+
+#TABLE h2{
+    padding: 100px 0 85px 0 !important;
+    text-shadow: 6px 8px 60px #780299;
+    position: relative;
+}
+
+#TABLE h2::after{
+    content: '';
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    box-shadow: 0 4px 0 #000;
+}
+
+#TABLE .table tr td{
+    border-bottom: none;
+}
+
+#TABLE .table tr td i{
+    cursor: pointer;
+}
+
+#TABLE .table tr td p {
+	padding: 0 9px;
+}
+
+#TABLE .tournament-table{
+    margin-top: 35px;
+}
+
+#TABLE .tournament-table .list-name {
+	margin-left: 0px;
+    height: 300px;
+}
+
+
+
+/* scrollbar section */
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail { 
+	box-shadow: 2px 0px 2px #280063;
+    background: #000;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background: #280e4e;
+    width: 15px;
+    height: 60px;
+    box-shadow: 1px 1px 6px black;
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+	height: 30px !important;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background-color:  rgba(197, 130, 42, 0.85);
+}
+/* scrollbar section */
+
+
+
+
+#TABLE .tournament-table .list-name ul li{
+    padding-bottom: 50px !important;
+    position: relative;
+}
+
+#TABLE .tournament-table .list-name ul li:last-of-type{
+    padding-bottom: 0;
+}
+
+#TABLE .tournament-table .list-name ul li::after {
+	content: '';
+	position: absolute;
+	background: #2f1055;
+	top: 69px;
+	left: 0;
+	width: 87%;
+	height: 2px;
+	box-shadow: 0 -2px 0 #000;
+}
+
+#TABLE .tournament-table .list-name ul li:last-of-type:after {
+	content: none;
+}
+
+#TABLE .tournament-table .list-name ul li p{
+    margin-left: -98px;
+}
+
+#TABLE .time-table .time {
+	border: 1px solid #CF8929;
+	color: #CF8929;
+	margin-left: 15px !important;
+	border-radius: 5px !important;
+	padding: 5px 15px 0px 16px;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-ms-border-radius: 5px !important;
+	-o-border-radius: 5px !important;
+	margin-top: -20px;
+}
+
+/* End of table section */
+
+/* footer section start */
+#FOOTER{
+    background: #0B001B;
+    padding-top: 60px;
+}
+
+#FOOTER .about-jackpot p {
+	margin-top: 10px;
+	width: 381px;
+}
+
+#FOOTER .about-jackpot .icon i {
+	background: linear-gradient(#9C4BFA, #5B11CC);
+	padding: 15px;
+	margin-left: 15px;
+	box-shadow: 0 4px #3A0090;
+}
+
+#FOOTER .about-jackpot .icon i:first-child{
+    margin-left: 0;
+}
+
+#FOOTER .important-links .links{
+    margin-top: 10px;
+}
+
+#FOOTER .important-links{
+    margin-left: 40px;
+}
+
+#FOOTER .important-links ul li{
+    margin-top: 15px;
+}
+
+#FOOTER .important-links ul li:first-child{
+    margin-top: 0;
+}
+
+#FOOTER .important-links ul li a{
+    color: white;
+}
+
+#FOOTER .security-info p {
+	margin-left: 30px;
+	padding: 0 95px 0 0;
+	margin-top: 15px;
+}
+
+#FOOTER .security-info .secure-banking{
+    margin-top: 10px;
+}
+
+#FOOTER .footer-footer{
+    margin-top: 85px;
+    position: relative;
+}
+
+#FOOTER .footer-footer p{
+    padding-bottom: 10px;
+}
+
+#FOOTER .footer-footer::before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #290A59;
+}
+/* End of footer section */
