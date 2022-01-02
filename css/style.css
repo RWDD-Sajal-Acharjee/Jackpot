@@ -115,7 +115,87 @@ h2{
 /* typography end */
 
 /* navbar section start*/
-#NAVBAR {
+#NAVBAR{
+    background: rgba(53, 53, 53, .25) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.navbar-brand{
+    background: rgba(241, 241, 241, .2);
+    padding: 10px 30px !important;
+    margin-left: 20px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+}
+.navbar-nav .nav-link {
+	padding: 25px 10px !important;
+}
+
+/* .navbar-brand img{
+    transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #BABABA;
+    transition: all linear .4s;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f1f1f1;
+    z-index: -1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 100%;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.navbar-light .navbar-nav .active::before{
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--barndCol);
+    z-index: -1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after{
+    width: 100%;
+    transition:  all linear .4s;
+    -webkit-transition:  all linear .4s;
+    -moz-transition:  all linear .4s;
+    -ms-transition:  all linear .4s;
+    -o-transition:  all linear .4s;
+}
+
+/* #NAVBAR {
     background: rgba(58, 0, 144, 0.5);
 	width: 100%;
 	position: fixed;
@@ -168,7 +248,7 @@ h2{
 
 #NAVBAR .navbar ul li a.active{
     color: #DF25BD;
-}
+} */
 /* End of navbar section */
 
 /* banner section start */
