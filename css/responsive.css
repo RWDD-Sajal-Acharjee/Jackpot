@@ -1,0 +1,244 @@
+/*====================== 
+    extra small device
+========================*/
+@media(max-width: 575px){
+
+    /* navbar section start */
+    #NAVBAR .navbar-toggler {
+        border-color: #fff;
+        margin-top: 60px !important;
+        margin-left: 1px !important;
+    }
+    #NAVBAR .navbar-toggler i{
+        color: #fff;
+    }
+
+    #NAVBAR img {
+        height: 70px;
+    }
+
+    #NAVBAR .navbar ul {
+        margin-top: 11px;
+        margin-left: 140px;
+        background: #280063;
+        margin-right: -13px;
+        border-radius: 0 0 0 10px;
+    }
+
+    #NAVBAR .navbar ul li {
+        margin-left: 15px !important;
+    }
+
+    .sign-btn {
+        width: 70px;
+        position: fixed;
+        right: 85px;
+        top: -14px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    .login-btn {
+        width: 70px;
+        position: fixed;
+        right: 15px;
+        top: -14px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    /* End of navbar section */
+
+    /* banner section start */
+
+    #BANNER .banner-image img {
+       display: none;
+    }
+
+    #BANNER .banner-text {
+        margin-top: 145px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    #BANNER .banner-text h1 {
+        font-size: 95px;
+        margin-top: -6px;
+    }
+
+    #BANNER .banner-text p {
+        /* margin-top: -20px; */
+        text-align: justify !important;
+        margin: 0 auto !important;
+    }
+
+    #BANNER .banner-text .play-btn {
+        margin-left: 0px !important;
+    }
+    /* End of banner section */
+
+    /* related games section start*/
+
+    #GAMES .card-section .card-1 {
+        left: 50%;
+        top: -151px;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    #GAMES .card-section .card-2 {
+        display: none;
+    }
+    
+    #GAMES .card-section .card-3 {
+        display: none;
+    }
+
+    #GAMES h2 {
+        padding: 50px 0 20px 0 !important;
+        font-size: 20px;
+    }
+
+    #GAMES .image img {
+        margin-top: 10px;
+    }
+
+
+   #GAMES .image .overlay{
+    margin-top: 10px;
+    }
+
+     /* related games section End*/
+
+     /* Free spin section start */
+
+    #SPIN .text-section h2 {
+        font-size: 35px;
+        text-align: center;
+        margin-top: 51px !important;
+    }
+
+     #SPIN .image-section{
+        display: none;
+    }
+
+    #SPIN .text-section p:last-of-type{
+        display: none;
+    }
+
+    #SPIN .text-section p:first-of-type {
+        text-align: justify;
+    }
+
+    #SPIN .text-section button {
+        margin-left: 50% !important;
+        transform: translateX(-50%);
+        margin-top: 5px !important;
+        margin-bottom: 40px !important;
+    }
+     /* End of free spin section */
+
+     /* pricing plan section start */
+    #PRICE h2 {
+        padding: 43px 0 2px 0 !important;
+        font-size: 35px;
+    }
+
+    #PRICE .card {
+        margin-top: 17% !important;
+    }
+
+    /* End of pricing plan */
+
+    /* table section start */
+    #TABLE{
+    }
+
+    #TABLE h2 {
+        font-size: 29px;
+        margin-top: -74px;
+    }
+
+    #TABLE h2::after {
+        top: 143px;
+    }
+
+    #TABLE .table {
+        margin-top: -29px;
+    }
+
+    #TABLE .table tr td p {
+        text-align: justify;
+    }
+
+    #TABLE .time-table {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    #TABLE .time-table h4 {
+        font-size: 29px !important;
+        margin-top: -54px;
+        margin-bottom: 48px;
+        text-align: center;
+    }
+
+    #TABLE .time-table .time {
+        margin-bottom: 36px;
+    }
+
+    #TABLE .tournament-table .list-name ul li p{
+        margin-left: -31px;
+        font-size: 16px;
+    }
+
+    #TABLE .tournament-table .list-name ul li img{
+        margin-left: 10px;
+    }
+
+    #TABLE .tournament-table .list-name ul li span{
+        font-size: 16px;
+    }
+
+    #TABLE .tournament-table .list-name ul li::after {
+        width: 100%;
+    }
+
+    /* End of table section */
+
+    /* footer section start */
+    #FOOTER{
+        background: #0B001B;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    #FOOTER .about-jackpot p {
+        text-align: justify;
+        width: 308px !important;
+        margin: 0 auto;
+    }
+
+    #FOOTER .important-links {
+        margin-top: 19px;
+    }
+
+    #FOOTER .important-links .links {
+        margin: 0 auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #FOOTER .security-info .secure-banking,
+    #FOOTER .security-info .user{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+
+
+/* End of footer section */
+}
